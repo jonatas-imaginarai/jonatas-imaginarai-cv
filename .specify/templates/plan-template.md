@@ -31,7 +31,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **Precision Gate**: Is every decorative element justified by structural or communicative need? (Principle I)
+- [ ] **Typography Gate**: Are Satoshi and Geist Mono used correctly for hierarchy? (Principle II)
+- [ ] **Bilingual Gate**: Does the layout account for Spanish and Portuguese text length variations? (Principle III)
+- [ ] **Elegance Gate**: Are OKLCH colors, glassmorphism, and fine lines (border/10) correctly applied? (Principle IV)
+- [ ] **Tone Gate**: Is the background using the "Cold Architectural" oklch(0.99 0.005 240) tint? (Principle V)
 
 ## Project Structure
 

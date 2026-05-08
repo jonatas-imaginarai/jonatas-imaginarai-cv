@@ -90,6 +90,14 @@
 - **FR-004**: System MUST [data requirement, e.g., "persist user preferences"]
 - **FR-005**: System MUST [behavior, e.g., "log all security events"]
 
+### Design & Aesthetic Requirements (Constitution Alignment)
+
+- **DR-001**: Components MUST adhere to the **Precision over Decoration** principle (intentional elements only).
+- **DR-002**: Typography MUST follow the **Confidence through Typography** standard (Satoshi/Geist Mono).
+- **DR-003**: UI MUST be validated for **Bilingual Fluidity** (Spanish and Portuguese).
+- **DR-004**: Visuals MUST implement **Futuristic Elegance** (OKLCH, Glassmorphism, Fine Lines).
+- **DR-005**: Backgrounds MUST maintain the **Cold Architectural Tone** (oklch hue 240).
+
 *Example of marking unclear requirements:*
 
 - **FR-006**: System MUST authenticate users via [NEEDS CLARIFICATION: auth method not specified - email/password, SSO, OAuth?]
