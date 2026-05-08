@@ -7,27 +7,28 @@ interface SkillsProps {
 
 export function Skills({ skills, title }: SkillsProps) {
   return (
-    <section className="py-24 bg-accent/30">
+    <section className="py-32 bg-accent/10 border-y border-border/50">
       <Container>
-        <div className="mb-16 flex items-center gap-8">
-          <h2 className="text-4xl font-bold tracking-tighter uppercase">{title}</h2>
-          <div className="h-px flex-1 bg-border" />
+        <div className="mb-24 flex items-end justify-between border-b border-border pb-8">
+          <h2 className="font-mono text-[11px] uppercase tracking-[0.4em] text-primary">
+            02 // {title}
+          </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16">
           {skills.map((category, index) => (
-            <div key={index}>
-              <h3 className="font-mono text-sm uppercase tracking-[0.3em] font-bold text-primary mb-8">
+            <div key={index} className="flex flex-col gap-6">
+              <h3 className="font-mono text-[10px] uppercase tracking-[0.3em] font-bold opacity-40">
                 {category.name}
               </h3>
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-wrap gap-x-3 gap-y-2">
                 {category.items.map((item: string, i: number) => (
-                  <div
+                  <span
                     key={i}
-                    className="rounded-full border border-border bg-background px-6 py-2 text-sm font-medium tracking-tight hover:border-primary/30 transition-colors"
+                    className="text-sm font-medium tracking-tight opacity-70 after:content-['/'] after:ml-3 after:opacity-20 last:after:content-none"
                   >
                     {item}
-                  </div>
+                  </span>
                 ))}
               </div>
             </div>
