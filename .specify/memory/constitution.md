@@ -39,10 +39,12 @@ Maintain a "Cold" tone by ensuring backgrounds have a slight blue tint (oklch hu
 
 ## Technical Standards
 
+- **Framework**: Next.js (App Router preferred) for optimized performance, SEO, and server-side rendering.
 - **Color Space**: Exclusively use OKLCH for perceptual uniformity and modern browser support.
 - **Spacing**: Follow a strict vertical rhythm using `py-16` to `py-24` for sections and `gap-4` to `gap-12` for content grouping.
 - **Readability**: Restrict body text to `max-w-2xl` or `max-w-4xl` to ensure optimal line length.
 - **Interactions**: Use `cubic-bezier(0.25, 1, 0.5, 1)` for core easing. All page transitions should use staggered fades for a cinematic feel.
+- **Asset Delivery**: Ensure high-quality PDF generation/download capability that maintains visual consistency with the web version.
 
 ## Visual DNA
 
