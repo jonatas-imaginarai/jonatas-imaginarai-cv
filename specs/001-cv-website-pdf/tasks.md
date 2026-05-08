@@ -17,10 +17,10 @@
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T001 Initialize Next.js 14+ project with TypeScript and App Router
-- [ ] T002 Install primary dependencies: `next-intl`, `framer-motion`, `lucide-react`, `sparticuz-chromium`, `puppeteer-core`, `tailwind-merge`, `clsx`
-- [ ] T003 Configure fonts (Satoshi, Geist Mono) in `public/fonts/` and `src/app/layout.tsx`
-- [ ] T004 [P] Configure Tailwind with OKLCH color palette in `tailwind.config.ts`
+- [x] T001 Initialize Next.js 14+ project with TypeScript and App Router
+- [x] T002 Install primary dependencies: `next-intl`, `framer-motion`, `lucide-react`, `sparticuz-chromium`, `puppeteer-core`, `tailwind-merge`, `clsx`
+- [x] T003 Configure fonts (Satoshi, Geist Mono) in `public/fonts/` and `src/app/layout.tsx`
+- [x] T004 [P] Configure Tailwind with OKLCH color palette in `tailwind.config.ts`
 
 ---
 
@@ -28,10 +28,10 @@
 
 **Purpose**: Core infrastructure that MUST be complete before ANY user story can be implemented
 
-- [ ] T005 [P] Create trilingual data structure in `src/data/pt.json`, `src/data/es.json`, `src/data/en.json`
-- [ ] T006 [P] Configure `next-intl` i18n routing and middleware in `src/i18n.ts` and `src/middleware.ts`
-- [ ] T007 Implement server-side PDF generation utility in `src/lib/pdf.ts` using Puppeteer
-- [ ] T010 [P] Create base UI components (Container, Button, Card) with "Imaginar.ai" styling in `src/components/ui/`
+- [x] T005 [P] Create trilingual data structure in `src/data/pt.json`, `src/data/es.json`, `src/data/en.json`
+- [x] T006 [P] Configure `next-intl` i18n routing and middleware in `src/i18n.ts` and `src/middleware.ts`
+- [x] T007 Implement server-side PDF generation utility in `src/lib/pdf.ts` using Puppeteer
+- [x] T010 [P] Create base UI components (Container, Button, Card) with "Imaginar.ai" styling in `src/components/ui/`
 
 ---
 
@@ -41,8 +41,8 @@
 
 **Independent Test**: Navigate to the site, use the language toggle, and verify that all content translates correctly without layout breaks.
 
-- [ ] T011 [P] [US3] Create LanguageToggle component in `src/components/LanguageToggle.tsx`
-- [ ] T012 [US3] Implement localized home page shell in `src/app/[locale]/page.tsx`
+- [x] T011 [P] [US3] Create LanguageToggle component in `src/components/LanguageToggle.tsx`
+- [x] T012 [US3] Implement localized home page shell in `src/app/[locale]/page.tsx`
 
 ---
 
@@ -52,11 +52,11 @@
 
 **Independent Test**: Verify Hero section elements (Photo, Title, Headline, Contacts) and all CV sections (Experience, Skills, Education, Languages) are rendered and visually polished.
 
-- [ ] T013 [P] [US1] Implement Hero section with photo and contact buttons in `src/components/hero/Hero.tsx`
-- [ ] T014 [P] [US1] Implement Professional Experience section in `src/components/cv/Experience.tsx`
-- [ ] T015 [P] [US1] Implement Stacks & Skills section in `src/components/cv/Skills.tsx`
-- [ ] T016 [P] [US1] Implement Education and Languages sections in `src/components/cv/EducationLanguages.tsx`
-- [ ] T017 [US1] Assemble all sections on the localized home page in `src/app/[locale]/page.tsx`
+- [x] T013 [P] [US1] Implement Hero section with photo and contact buttons in `src/components/hero/Hero.tsx`
+- [x] T014 [P] [US1] Implement Professional Experience section in `src/components/cv/Experience.tsx`
+- [x] T015 [P] [US1] Implement Stacks & Skills section in `src/components/cv/Skills.tsx`
+- [x] T016 [P] [US1] Implement Education and Languages sections in `src/components/cv/EducationLanguages.tsx`
+- [x] T017 [US1] Assemble all sections on the localized home page in `src/app/[locale]/page.tsx`
 
 ---
 

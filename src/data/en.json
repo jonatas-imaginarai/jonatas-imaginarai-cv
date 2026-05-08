@@ -1,0 +1,56 @@
+{
+  "profile": {
+    "name": "Jonatas Freire",
+    "title": "Software Engineer & AI Specialist",
+    "headline": "Expert in creating high-impact digital solutions, merging software engineering precision with the power of Artificial Intelligence.",
+    "photo": "/images/profile.jpg",
+    "contact": {
+      "email": "jonatas@imaginar.ai",
+      "linkedin": "https://linkedin.com/in/jonatasfreire",
+      "github": "https://github.com/jonatas-imaginarai"
+    }
+  },
+  "experience": [
+    {
+      "company": "Imaginar.ai",
+      "role": "Founder & CTO",
+      "period": "2023 - Present",
+      "location": "Remote",
+      "description": [
+        "Technical leadership in developing custom AI agents for businesses.",
+        "Architecture of scalable systems using Next.js and advanced LLM integrations."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University X",
+      "degree": "Bachelor of Computer Science",
+      "period": "2015 - 2019"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "items": ["Next.js", "React", "Tailwind CSS", "TypeScript", "Framer Motion"]
+    },
+    {
+      "name": "AI & Backend",
+      "items": ["OpenAI API", "LangChain", "Node.js", "Python", "FastAPI"]
+    }
+  ],
+  "languages": [
+    {
+      "name": "Portuguese",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Fluent"
+    },
+    {
+      "name": "Spanish",
+      "level": "Advanced"
+    }
+  ]
+}
