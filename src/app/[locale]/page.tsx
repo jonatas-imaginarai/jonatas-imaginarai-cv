@@ -1,20 +1,24 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { Container } from "@/components/ui/Container";
 import { LanguageToggle } from "@/components/LanguageToggle";
 import { Hero } from "@/components/hero/Hero";
 import { Experience } from "@/components/cv/Experience";
 import { Skills } from "@/components/cv/Skills";
 import { EducationLanguages } from "@/components/cv/EducationLanguages";
+import { DownloadButton } from "@/components/cv/DownloadButton";
 
 export default async function Index({ 
-  params: { locale },
+  params,
   searchParams
 }: { 
-  params: { locale: string },
-  searchParams: { print?: string }
+  params: Promise<{ locale: string }>,
+  searchParams: Promise<{ print?: string }>
 }) {
-  const isPrinting = searchParams.print === 'true';
-  const t = useTranslations("Index");
+  const { locale } = await params;
+  const { print } = await searchParams;
+  
+  const isPrinting = print === 'true';
+  const t = await getTranslations("Index");
   
   // Load localized data
   const data = (await import(`@/data/${locale}.json`)).default;
@@ -59,8 +63,5 @@ export default async function Index({
 
       {!isPrinting && <DownloadButton />}
     </main>
-  );
-}
-   </main>
   );
 }
